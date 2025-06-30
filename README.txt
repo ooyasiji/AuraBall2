@@ -1,2 +1,2 @@
-This code was created by Oluwademilade Oyasiji in May 2024 and finalized in Early June 2024.
-I hope you enjoy the game!
+This game was created fully by Oluwademilade Oyasiji for the Stanford Code In Place Program.
+Enjoy!
