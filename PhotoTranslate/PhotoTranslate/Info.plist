@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>PhotoTranslate</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.example.PhotoTranslate</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Allow camera access to translate text from photos.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow selecting photos for translation.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Allow saving translated snapshots if needed.</string>
+	<key>GOOGLE_TRANSLATE_API_KEY</key>
+	<string>$(GOOGLE_TRANSLATE_API_KEY)</string>
+	<key>AZURE_TRANSLATE_API_KEY</key>
+	<string>$(AZURE_TRANSLATE_API_KEY)</string>
+	<key>AZURE_TRANSLATE_REGION</key>
+	<string>$(AZURE_TRANSLATE_REGION)</string>
+	<key>ACTIVE_TRANSLATOR</key>
+	<string>$(ACTIVE_TRANSLATOR)</string>
+</dict>
+</plist>
