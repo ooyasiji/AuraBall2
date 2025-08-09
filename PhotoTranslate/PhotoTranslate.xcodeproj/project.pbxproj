@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+	4C0C6D4E2B1A2A3B00A00201 /* PhotoTranslateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C6D4E2B1A2A3B00A00101 /* PhotoTranslateApp.swift */; };
+	4C0C6D4E2B1A2A3B00A00202 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C6D4E2B1A2A3B00A00102 /* ImagePicker.swift */; };
+	4C0C6D4E2B1A2A3B00A00203 /* OCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C6D4E2B1A2A3B00A00103 /* OCRService.swift */; };
+	4C0C6D4E2B1A2A3B00A00204 /* LanguageDetectService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C6D4E2B1A2A3B00A00104 /* LanguageDetectService.swift */; };
+	4C0C6D4E2B1A2A3B00A00205 /* TranslationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C6D4E2B1A2A3B00A00105 /* TranslationService.swift */; };
+	4C0C6D4E2B1A2A3B00A00206 /* GoogleTranslateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C6D4E2B1A2A3B00A00106 /* GoogleTranslateService.swift */; };
+	4C0C6D4E2B1A2A3B00A00207 /* AzureTranslateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C6D4E2B1A2A3B00A00107 /* AzureTranslateService.swift */; };
+	4C0C6D4E2B1A2A3B00A00208 /* DetectedLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C6D4E2B1A2A3B00A00108 /* DetectedLanguage.swift */; };
+	4C0C6D4E2B1A2A3B00A00209 /* TranslationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C6D4E2B1A2A3B00A00109 /* TranslationResult.swift */; };
+	4C0C6D4E2B1A2A3B00A0020A /* Locale+DisplayName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C6D4E2B1A2A3B00A0010A /* Locale+DisplayName.swift */; };
+	4C0C6D4E2B1A2A3B00A0020B /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C6D4E2B1A2A3B00A0010B /* AppConfig.swift */; };
+	4C0C6D4E2B1A2A3B00A0020D /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C6D4E2B1A2A3B00A0010D /* LoadingOverlay.swift */; };
+	4C0C6D4E2B1A2A3B00A0020E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C6D4E2B1A2A3B00A0010E /* ContentView.swift */; };
+	4C0C6D4E2B1A2A3B00A0020F /* LanguagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C6D4E2B1A2A3B00A0010F /* LanguagePickerView.swift */; };
+	4C0C6D4E2B1A2A3B00A00210 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C6D4E2B1A2A3B00A00110 /* ResultsView.swift */; };
+	4C0C6D4E2B1A2A3B00A00211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C6D4E2B1A2A3B00A00111 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+	4C0C6D4E2B1A2A3B00A00101 /* PhotoTranslateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTranslateApp.swift; sourceTree = "<group>"; };
+	4C0C6D4E2B1A2A3B00A00102 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+	4C0C6D4E2B1A2A3B00A00103 /* OCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRService.swift; sourceTree = "<group>"; };
+	4C0C6D4E2B1A2A3B00A00104 /* LanguageDetectService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageDetectService.swift; sourceTree = "<group>"; };
+	4C0C6D4E2B1A2A3B00A00105 /* TranslationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationService.swift; sourceTree = "<group>"; };
+	4C0C6D4E2B1A2A3B00A00106 /* GoogleTranslateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleTranslateService.swift; sourceTree = "<group>"; };
+	4C0C6D4E2B1A2A3B00A00107 /* AzureTranslateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzureTranslateService.swift; sourceTree = "<group>"; };
+	4C0C6D4E2B1A2A3B00A00108 /* DetectedLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectedLanguage.swift; sourceTree = "<group>"; };
+	4C0C6D4E2B1A2A3B00A00109 /* TranslationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationResult.swift; sourceTree = "<group>"; };
+	4C0C6D4E2B1A2A3B00A0010A /* Locale+DisplayName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locale+DisplayName.swift"; sourceTree = "<group>"; };
+	4C0C6D4E2B1A2A3B00A0010B /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+	4C0C6D4E2B1A2A3B00A0010D /* LoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
+	4C0C6D4E2B1A2A3B00A0010E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+	4C0C6D4E2B1A2A3B00A0010F /* LanguagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagePickerView.swift; sourceTree = "<group>"; };
+	4C0C6D4E2B1A2A3B00A00110 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+	4C0C6D4E2B1A2A3B00A00111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+	4C0C6D4E2B1A2A3B00A00112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+	4C0C6D4E2B1A2A3B00A00113 /* PhotoTranslate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTranslate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+	4C0C6D4E2B1A2A3B00A00118 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Secrets.xcconfig; path = ../Configs/Secrets.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+	4C0C6D4E2B1A2A3B00A00006 /* Frameworks */ = {
+		isa = PBXFrameworksBuildPhase;
+		buildActionMask = 2147483647;
+		files = (
+		);
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+	4C0C6D4E2B1A2A3B00A00002 = {
+		isa = PBXGroup;
+		children = (
+			4C0C6D4E2B1A2A3B00A00017 /* PhotoTranslate */,
+			4C0C6D4E2B1A2A3B00A00018 /* Configs */,
+			4C0C6D4E2B1A2A3B00A00113 /* PhotoTranslate.app */,
+		);
+		sourceTree = "<group>";
+	};
+	4C0C6D4E2B1A2A3B00A00017 /* PhotoTranslate */ = {
+		isa = PBXGroup;
+		children = (
+			4C0C6D4E2B1A2A3B00A00111 /* Assets.xcassets */,
+			4C0C6D4E2B1A2A3B00A00112 /* Info.plist */,
+			4C0C6D4E2B1A2A3B00A00011 /* Core */,
+			4C0C6D4E2B1A2A3B00A00012 /* Models */,
+			4C0C6D4E2B1A2A3B00A00013 /* UI */,
+			4C0C6D4E2B1A2A3B00A00015 /* Utilities */,
+			4C0C6D4E2B1A2A3B00A00016 /* Config */,
+			4C0C6D4E2B1A2A3B00A00101 /* PhotoTranslateApp.swift */,
+		);
+		path = PhotoTranslate;
+		sourceTree = "<group>";
+	};
+	4C0C6D4E2B1A2A3B00A00018 /* Configs */ = {
+		isa = PBXGroup;
+		children = (
+			4C0C6D4E2B1A2A3B00A00118 /* Secrets.xcconfig */,
+		);
+		name = Configs;
+		sourceTree = "<group>";
+	};
+	4C0C6D4E2B1A2A3B00A00011 /* Core */ = {
+		isa = PBXGroup;
+		children = (
+			4C0C6D4E2B1A2A3B00A00102 /* ImagePicker.swift */,
+			4C0C6D4E2B1A2A3B00A00103 /* OCRService.swift */,
+			4C0C6D4E2B1A2A3B00A00104 /* LanguageDetectService.swift */,
+			4C0C6D4E2B1A2A3B00A00105 /* TranslationService.swift */,
+			4C0C6D4E2B1A2A3B00A00106 /* GoogleTranslateService.swift */,
+			4C0C6D4E2B1A2A3B00A00107 /* AzureTranslateService.swift */,
+		);
+		path = Core;
+		sourceTree = "<group>";
+	};
+	4C0C6D4E2B1A2A3B00A00012 /* Models */ = {
+		isa = PBXGroup;
+		children = (
+			4C0C6D4E2B1A2A3B00A00108 /* DetectedLanguage.swift */,
+			4C0C6D4E2B1A2A3B00A00109 /* TranslationResult.swift */,
+		);
+		path = Models;
+		sourceTree = "<group>";
+	};
+	4C0C6D4E2B1A2A3B00A00013 /* UI */ = {
+		isa = PBXGroup;
+		children = (
+			4C0C6D4E2B1A2A3B00A00014 /* Components */,
+			4C0C6D4E2B1A2A3B00A0010E /* ContentView.swift */,
+			4C0C6D4E2B1A2A3B00A0010F /* LanguagePickerView.swift */,
+			4C0C6D4E2B1A2A3B00A00110 /* ResultsView.swift */,
+		);
+		path = UI;
+		sourceTree = "<group>";
+	};
+	4C0C6D4E2B1A2A3B00A00014 /* Components */ = {
+		isa = PBXGroup;
+		children = (
+			4C0C6D4E2B1A2A3B00A0010D /* LoadingOverlay.swift */,
+		);
+		path = Components;
+		sourceTree = "<group>";
+	};
+	4C0C6D4E2B1A2A3B00A00016 /* Config */ = {
+		isa = PBXGroup;
+		children = (
+			4C0C6D4E2B1A2A3B00A0010B /* AppConfig.swift */,
+		);
+		path = Config;
+		sourceTree = "<group>";
+	};
+	4C0C6D4E2B1A2A3B00A00015 /* Utilities */ = {
+		isa = PBXGroup;
+		children = (
+			4C0C6D4E2B1A2A3B00A0010A /* Locale+DisplayName.swift */,
+		);
+		path = Utilities;
+		sourceTree = "<group>";
+	};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+	4C0C6D4E2B1A2A3B00A00003 /* PhotoTranslate */ = {
+		isa = PBXNativeTarget;
+		buildConfigurationList = 4C0C6D4E2B1A2A3B00A0000A /* Build configuration list for PBXNativeTarget "PhotoTranslate" */;
+		buildPhases = (
+			4C0C6D4E2B1A2A3B00A00004 /* Sources */,
+			4C0C6D4E2B1A2A3B00A00006 /* Frameworks */,
+			4C0C6D4E2B1A2A3B00A00005 /* Resources */,
+		);
+		buildRules = (
+		);
+		dependencies = (
+		);
+		name = PhotoTranslate;
+		productName = PhotoTranslate;
+		productReference = 4C0C6D4E2B1A2A3B00A00113 /* PhotoTranslate.app */;
+		productType = "com.apple.product-type.application";
+	};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+	4C0C6D4E2B1A2A3B00A00001 /* Project object */ = {
+		isa = PBXProject;
+		attributes = {
+			BuildIndependentTargetsInParallel = 1;
+			LastSwiftUpdateCheck = 1500;
+			LastUpgradeCheck = 1500;
+			TargetAttributes = {
+				4C0C6D4E2B1A2A3B00A00003 = {
+					ProvisioningStyle = Automatic;
+				};
+			};
+		};
+		buildConfigurationList = 4C0C6D4E2B1A2A3B00A00007 /* Build configuration list for PBXProject "PhotoTranslate" */;
+		compatibilityVersion = "Xcode 15.0";
+		developmentRegion = en;
+		hasScannedForEncodings = 0;
+		knownRegions = (
+			en,
+		);
+		mainGroup = 4C0C6D4E2B1A2A3B00A00002;
+		productRefGroup = 4C0C6D4E2B1A2A3B00A00002;
+		projectDirPath = "";
+		projectRoot = "";
+		targets = (
+			4C0C6D4E2B1A2A3B00A00003 /* PhotoTranslate */,
+		);
+	};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+	4C0C6D4E2B1A2A3B00A00005 /* Resources */ = {
+		isa = PBXResourcesBuildPhase;
+		buildActionMask = 2147483647;
+		files = (
+			4C0C6D4E2B1A2A3B00A00211 /* Assets.xcassets in Resources */,
+		);
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+	4C0C6D4E2B1A2A3B00A00004 /* Sources */ = {
+		isa = PBXSourcesBuildPhase;
+		buildActionMask = 2147483647;
+		files = (
+			4C0C6D4E2B1A2A3B00A00201 /* PhotoTranslateApp.swift in Sources */,
+			4C0C6D4E2B1A2A3B00A0020E /* ContentView.swift in Sources */,
+			4C0C6D4E2B1A2A3B00A00202 /* ImagePicker.swift in Sources */,
+			4C0C6D4E2B1A2A3B00A00203 /* OCRService.swift in Sources */,
+			4C0C6D4E2B1A2A3B00A00204 /* LanguageDetectService.swift in Sources */,
+			4C0C6D4E2B1A2A3B00A00205 /* TranslationService.swift in Sources */,
+			4C0C6D4E2B1A2A3B00A00206 /* GoogleTranslateService.swift in Sources */,
+			4C0C6D4E2B1A2A3B00A00207 /* AzureTranslateService.swift in Sources */,
+			4C0C6D4E2B1A2A3B00A0020D /* LoadingOverlay.swift in Sources */,
+			4C0C6D4E2B1A2A3B00A0020F /* LanguagePickerView.swift in Sources */,
+			4C0C6D4E2B1A2A3B00A00210 /* ResultsView.swift in Sources */,
+			4C0C6D4E2B1A2A3B00A00208 /* DetectedLanguage.swift in Sources */,
+			4C0C6D4E2B1A2A3B00A00209 /* TranslationResult.swift in Sources */,
+			4C0C6D4E2B1A2A3B00A0020A /* Locale+DisplayName.swift in Sources */,
+			4C0C6D4E2B1A2A3B00A0020B /* AppConfig.swift in Sources */,
+		);
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+	4C0C6D4E2B1A2A3B00A00008 /* Debug */ = {
+		isa = XCBuildConfiguration;
+		buildSettings = {
+			CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+			ENABLE_USER_SCRIPT_SANDBOXING = YES;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+		};
+		name = Debug;
+	};
+	4C0C6D4E2B1A2A3B00A00009 /* Release */ = {
+		isa = XCBuildConfiguration;
+		buildSettings = {
+			CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+			ENABLE_USER_SCRIPT_SANDBOXING = YES;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+		};
+		name = Release;
+	};
+	4C0C6D4E2B1A2A3B00A0000B /* Debug */ = {
+		isa = XCBuildConfiguration;
+		baseConfigurationReference = 4C0C6D4E2B1A2A3B00A00118 /* Secrets.xcconfig */;
+		buildSettings = {
+			ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			DEVELOPMENT_TEAM = "";
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = PhotoTranslate/Info.plist;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.example.PhotoTranslate;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_EMIT_LOC_STRINGS = NO;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = 1;
+		};
+		name = Debug;
+	};
+	4C0C6D4E2B1A2A3B00A0000C /* Release */ = {
+		isa = XCBuildConfiguration;
+		baseConfigurationReference = 4C0C6D4E2B1A2A3B00A00118 /* Secrets.xcconfig */;
+		buildSettings = {
+			ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			DEVELOPMENT_TEAM = "";
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = PhotoTranslate/Info.plist;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.example.PhotoTranslate;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_EMIT_LOC_STRINGS = NO;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = 1;
+		};
+		name = Release;
+	};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+	4C0C6D4E2B1A2A3B00A00007 /* Build configuration list for PBXProject "PhotoTranslate" */ = {
+		isa = XCConfigurationList;
+		buildConfigurations = (
+			4C0C6D4E2B1A2A3B00A00008 /* Debug */,
+			4C0C6D4E2B1A2A3B00A00009 /* Release */,
+		);
+		defaultConfigurationIsVisible = 0;
+		defaultConfigurationName = Debug;
+	};
+	4C0C6D4E2B1A2A3B00A0000A /* Build configuration list for PBXNativeTarget "PhotoTranslate" */ = {
+		isa = XCConfigurationList;
+		buildConfigurations = (
+			4C0C6D4E2B1A2A3B00A0000B /* Debug */,
+			4C0C6D4E2B1A2A3B00A0000C /* Release */,
+		);
+		defaultConfigurationIsVisible = 0;
+		defaultConfigurationName = Debug;
+	};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 4C0C6D4E2B1A2A3B00A00001 /* Project object */;
+}
