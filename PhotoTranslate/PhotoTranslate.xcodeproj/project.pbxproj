@@ -43,7 +43,7 @@
 	4C0C6D4E2B1A2A3B00A00111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 	4C0C6D4E2B1A2A3B00A00112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 	4C0C6D4E2B1A2A3B00A00113 /* PhotoTranslate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTranslate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-	4C0C6D4E2B1A2A3B00A00118 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Secrets.xcconfig; path = ../Configs/Secrets.xcconfig; sourceTree = "<group>"; };
+	4C0C6D4E2B1A2A3B00A00118 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Secrets.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +87,7 @@
 			4C0C6D4E2B1A2A3B00A00118 /* Secrets.xcconfig */,
 		);
 		name = Configs;
+		path = Configs;
 		sourceTree = "<group>";
 	};
 	4C0C6D4E2B1A2A3B00A00011 /* Core */ = {
@@ -237,19 +238,25 @@
 /* Begin XCBuildConfiguration section */
 	4C0C6D4E2B1A2A3B00A00008 /* Debug */ = {
 		isa = XCBuildConfiguration;
+		baseConfigurationReference = 4C0C6D4E2B1A2A3B00A00118 /* Secrets.xcconfig */;
 		buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
 			CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 			ENABLE_USER_SCRIPT_SANDBOXING = YES;
 			PRODUCT_NAME = "$(TARGET_NAME)";
+			USE_HEADERMAP = YES;
 		};
 		name = Debug;
 	};
 	4C0C6D4E2B1A2A3B00A00009 /* Release */ = {
 		isa = XCBuildConfiguration;
+		baseConfigurationReference = 4C0C6D4E2B1A2A3B00A00118 /* Secrets.xcconfig */;
 		buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
 			CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 			ENABLE_USER_SCRIPT_SANDBOXING = YES;
 			PRODUCT_NAME = "$(TARGET_NAME)";
+			USE_HEADERMAP = YES;
 		};
 		name = Release;
 	};
@@ -257,6 +264,7 @@
 		isa = XCBuildConfiguration;
 		baseConfigurationReference = 4C0C6D4E2B1A2A3B00A00118 /* Secrets.xcconfig */;
 		buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
 			ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 			CODE_SIGN_STYLE = Automatic;
 			CURRENT_PROJECT_VERSION = 1;
@@ -271,6 +279,7 @@
 			SWIFT_EMIT_LOC_STRINGS = NO;
 			SWIFT_VERSION = 5.0;
 			TARGETED_DEVICE_FAMILY = 1;
+			USE_HEADERMAP = YES;
 		};
 		name = Debug;
 	};
@@ -278,6 +287,7 @@
 		isa = XCBuildConfiguration;
 		baseConfigurationReference = 4C0C6D4E2B1A2A3B00A00118 /* Secrets.xcconfig */;
 		buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
 			ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 			CODE_SIGN_STYLE = Automatic;
 			CURRENT_PROJECT_VERSION = 1;
@@ -292,6 +302,7 @@
 			SWIFT_EMIT_LOC_STRINGS = NO;
 			SWIFT_VERSION = 5.0;
 			TARGETED_DEVICE_FAMILY = 1;
+			USE_HEADERMAP = YES;
 		};
 		name = Release;
 	};
